@@ -1,23 +1,25 @@
 <resources>
-    <string name="app_name" translatable="false">Quantum Computing</string>
-    <string name="app_name_long" translatable="false">Quantum Computing for Android</string>
-    <string name="bloch_sphere">Bloch sphere</string>
-    <string name="run">Run</string>
-    <string name="cancel">Cancel</string>
-    <string name="preferences">Preferences</string>
-    <string name="execution_settings">Execution settings</string>
-    <string name="shots">Shots</string>
-    <string name="threads">Threads</string>
-    <string name="select_gate_type">Select gate type</string>
-    <string name="select_gate">Select gate</string>
-    <string name="single_gate">Single Qubit</string>
-    <string name="multi_gate">Multi Qubit</string>
+    <!--RUS version 0.3-->
+    <!-- Please, help to translate it. Where used Operate on, 17 string7-->
+    <string name="app_name" translatable="true">Квантовые вычисления</string>
+    <string name="app_name_long" translatable="true">Квантовые вычисления для Андроид</string>
+    <string name="bloch_sphere">Сфера Блоха</string>
+    <string name="run">Старт</string>
+    <string name="cancel">Отмена</string>
+    <string name="preferences">Настройки</string>
+    <string name="execution_settings">Настройки выполнения</string>
+    <string name="shots">Мощность</string>
+    <string name="threads">Поток выполнения</string>
+    <string name="select_gate_type">Выбрать тип логического вентиля</string>
+    <string name="select_gate">Выбрать логический вентиль</string>
+    <string name="single_gate">Одинчный кубит</string>
+    <string name="multi_gate">Мультикубит</string>
     <string name="operate_on">Operate on</string>
     <string name="select_order_of_qubits">Select the order of qubits</string>
     <string name="results">Results</string>
-    <string name="wait">Executing experiment, please wait&#8230;</string>
-    <string name="clear_screen">Clear timeline</string>
-    <string name="settings_help">Help</string>
+    <string name="wait">Вычисление эксперимента, Пожалуйста подождите&#8230;</string>
+    <string name="clear_screen">Очистить настройку</string>
+    <string name="settings_help">Помощь</string>
     <string name="settings_help_long"><![CDATA[
     <b>Shots:</b> select how many times to run the experiment. It is a good idea to increase this
     value as you start using more qubits. However, you can choose to use the <i>statevector mode</i>, where you get \"exact\" results.
@@ -25,10 +27,10 @@
     <br/><b>Threads:</b> usually it is enough to use as many threads as CPU cores your device has, however, a little more won\'t deteriorate performance.
     <br/><b>Output folder:</b> select where to export the results/gate sequence and user-defined matrices.
     ]]></string>
-    <string name="matrix_editor">Gate editor</string>
-    <string name="matrix_editor_detailed">Create and edit custom gates</string>
-    <string name="gate_name">Gate name</string>
-    <string name="symbols_hint">Symbols, eg: S,X,D</string>
+    <string name="matrix_editor">Редактор логического вентиля</string>
+    <string name="matrix_editor_detailed">Создайте и измените свои логические вентили</string>
+    <string name="gate_name">Имя логического элемента</string>
+    <string name="symbols_hint">Символы, например S, X, D</string>
     <string name="invalid_symbol">A symbol must be 1&#8211;3 characters</string>
     <string name="matrix">Matrix</string>
     <string name="choose_qubit_number">Number of qubits 1&#8211;4</string>
