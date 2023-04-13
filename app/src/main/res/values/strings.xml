@@ -1,8 +1,8 @@
 <resources>
     <!--RUS version 0.3-->
-    <!-- Please, help to translate it. Where used Operate on, 17 string7-->
-    <string name="app_name" translatable="true">Квантовые вычисления</string>
-    <string name="app_name_long" translatable="true">Квантовые вычисления для Андроид</string>
+    <!-- Please, help to translate it. Where used Operate on, 17 string-->
+    <string name="app_name" translatable="false">Квантовые вычисления</string>
+    <string name="app_name_long" translatable="false">Квантовые вычисления для Андроид</string>
     <string name="bloch_sphere">Сфера Блоха</string>
     <string name="run">Старт</string>
     <string name="cancel">Отмена</string>
@@ -17,19 +17,19 @@
     <string name="operate_on">Operate on</string>
     <string name="select_order_of_qubits">Select the order of qubits</string>
     <string name="results">Results</string>
-    <string name="wait">Вычисление эксперимента, Пожалуйста подождите&#8230;</string>
+    <string name="wait">Вычисление эксперимента, Пожалуйста подождите &#8230;</string>
     <string name="clear_screen">Очистить настройку</string>
     <string name="settings_help">Помощь</string>
     <string name="settings_help_long"><![CDATA[
-    <b>Мощность:</b> выберите как можно больше чтобы начать эксперимент. Чем больше значение, тем больше кубитов будет использоваться. However, you can choose to use the <i>statevector mode</i>, where you get \"exact\" results.
-    You should also choose <i>statevector mode</i> if you would like to see the final statevector of the system.
+    <b>Мощность:</b> выберите как можно больше чтобы начать эксперимент. Чем больше значение, тем больше кубитов будет использоваться. Однако, Вы можете использовать <i>режим вектора состояния</i>, если вы хотите \"более точных\" результатов.
+    Вы также можете использовать <i>режим вектора состояния</i> if you would like to see the final statevector of the system.
     <br/><b>Threads:</b> usually it is enough to use as many threads as CPU cores your device has, however, a little more won\'t deteriorate performance.
     <br/><b>Output folder:</b> select where to export the results/gate sequence and user-defined matrices.
     ]]></string>
     <string name="matrix_editor">Редактор логического вентиля</string>
     <string name="matrix_editor_detailed">Создайте и измените свои логические вентили</string>
     <string name="gate_name">Имя логического элемента</string>
-    <string name="symbols_hint">Символы, например S, X, D</string>
+    <string name="symbols_hint">Символы, например S,X,D</string>
     <string name="invalid_symbol">Символы должны быть похожими на 1&#8211;3 </string>
     <string name="matrix">Matrix</string>
     <string name="choose_qubit_number">Number of qubits 1&#8211;4</string>
@@ -37,19 +37,19 @@
     <string name="choose_save_location">Please select where to save the files. You can change it later in the settings</string>
     <string name="choose_save_location_settings">Couldn\'t save file! \nChoose a folder in settings</string>
     <string name="save_location">Output folder</string>
-    <string name="no_folder_selected">No folder selected</string>
+    <string name="no_folder_selected">Нет выбранной папки</string>
     <string name="select">Select</string>
     <string name="invalid_dim">Invalid matrix dimension, use 2^n*2^n</string>
     <string name="invalid_symbols">Use as many symbols as qubits separated by commas</string>
     <string name="invalid_name">Enter a valid unused name</string>
     <string name="invalid_complex">Invalid complex number: try the format x±yi</string>
     <string name="invalid_matrix">The matrix has to be unitary</string>
-    <string name="check_matrix">Check matrix</string>
-    <string name="determinant">Det modulus</string>
+    <string name="check_matrix">Проверить матрицу</string>
+    <string name="determinant">Найти определитель модулей</string>
     <string name="unitary">Unitary</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="delete_gate_question">Delete selected gate?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="delete_gate_question">Удалить выбранный логический вентиль?</string>
     <string name="gate_type">Gate type</string>
     <string name="filter">Filter</string>
     <string name="select_action">Select action</string>
